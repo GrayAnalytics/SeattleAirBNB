@@ -48,18 +48,29 @@ For this question, we were largely using existing variables (other than the targ
 However, since we are using a large number of columns, we do have a bit more data cleansing that we had to perform (dealing with Nulls, etc)  
 After the data prep was done, made a linear regression model, as a way to get variable impact via their coefficients.    
 
-| Variable  | Blag |  
-| --------- | ---  |  
-| blig      | 12   |  
-| blig      | 12   |  
+| Variable                  | abs coeffecient |  
+| ------------------------- | ---             |  
+| host_has_profile_pic      | 0.138           |  
+| within an hour            | 0.105           |  
+| instant_bookable          | 0.104           |  
+| within a few days or more | 0.080           |  
+| within a few hours        | 0.070           |  
+| bedrooms                  | 0.068           |  
+| beds                      | 0.059           |  
+
+From this we see that the bigest impacts are if the guest knows what the host looks like, how quickly the host responds to communications, and if the listing is instantly bookable.   
+
+Only after that are physical, harder to change items like bedroom and bed counts.  
+This gives hosts some actionable insights into how to improve their annual booking rate.
 
 
-
-
-
-blig
+A further writeup can be found on my [blog](https://grayanalytics.github.io/2025/01/26/Seattle_Airbnb.html)
 
 ## Acknowledgements
 
+Some of the python code was reused from the exercises found in Udacity's Data Science Nanodegree.
+For example, the naming schema for the training data 
 
-[here](https://insideairbnb.com/get-the-data/)
+> X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= 0.3)
+
+
