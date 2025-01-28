@@ -1,0 +1,9 @@
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+numpy==1.26.4
+numpydoc==1.5.0
+pandas==2.2.1
+regex==2023.3.23
+scikit-image==0.20.0
+scikit-learn==1.2.2
+textblob==0.18.0.post0
