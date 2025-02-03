@@ -50,17 +50,19 @@ After the data prep was done, made a linear regression model, as a way to get va
 
 | Variable                  | abs coeffecient |  
 | ------------------------- | ---             |  
-| host_has_profile_pic      | 0.138           |  
-| within an hour            | 0.105           |  
-| instant_bookable          | 0.104           |  
-| within a few days or more | 0.080           |  
-| within a few hours        | 0.070           |  
-| bedrooms                  | 0.068           |  
-| beds                      | 0.059           |  
+| instant_bookable          | 0.147           |  
+| host_has_profile_pic      | 0.146           |  
+| within an hour            | 0.110           |  
+| a few days or more        | 0.104           |  
+| within a few hours        | 0.072           |  
+| review_scores_location    | 0.064           |  
+| bedrooms                  | 0.063           |  
+| accomodates               | 0.041           |  
+| within a day              | 0.035           |  
 
 From this we see that the bigest impacts are if the guest knows what the host looks like, how quickly the host responds to communications, and if the listing is instantly bookable.   
 
-Only after that are physical, harder to change items like bedroom and bed counts.  
+Only after that are physical, harder to change items like bedroom and accomodates.  
 This gives hosts some actionable insights into how to improve their annual booking rate.
 
 
